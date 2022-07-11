@@ -8,57 +8,57 @@ build_property.PlatformNeutralAssembly =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = Jeison_Par2_AP1
 build_property.RootNamespace = Jeison_Par2_AP1
-build_property.ProjectDir = C:\Users\work-pc\Desktop\Jeison_Par2_AP1\
+build_property.ProjectDir = c:\Users\work-pc\Desktop\Jeison_Par2_AP1\
 build_property.RazorLangVersion = 6.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\Users\work-pc\Desktop\Jeison_Par2_AP1
+build_property.MSBuildProjectDirectory = c:\Users\work-pc\Desktop\Jeison_Par2_AP1
 build_property._RazorSourceGeneratorDebug = 
 
-[C:/Users/work-pc/Desktop/Jeison_Par2_AP1/App.razor]
+[c:/Users/work-pc/Desktop/Jeison_Par2_AP1/App.razor]
 build_metadata.AdditionalFiles.TargetPath = QXBwLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/work-pc/Desktop/Jeison_Par2_AP1/Pages/Consulta/C_Verduras.razor]
+[c:/Users/work-pc/Desktop/Jeison_Par2_AP1/Pages/Consulta/C_Verduras.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ29uc3VsdGFcQ19WZXJkdXJhcy5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/work-pc/Desktop/Jeison_Par2_AP1/Pages/Consulta/C_Vitaminas.razor]
+[c:/Users/work-pc/Desktop/Jeison_Par2_AP1/Pages/Consulta/C_Vitaminas.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ29uc3VsdGFcQ19WaXRhbWluYXMucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/work-pc/Desktop/Jeison_Par2_AP1/Pages/Index.razor]
+[c:/Users/work-pc/Desktop/Jeison_Par2_AP1/Pages/Index.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW5kZXgucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/work-pc/Desktop/Jeison_Par2_AP1/Pages/Registro/R_Verduras.razor]
+[c:/Users/work-pc/Desktop/Jeison_Par2_AP1/Pages/Registro/R_Verduras.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUmVnaXN0cm9cUl9WZXJkdXJhcy5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/work-pc/Desktop/Jeison_Par2_AP1/Shared/SurveyPrompt.razor]
+[c:/Users/work-pc/Desktop/Jeison_Par2_AP1/Shared/SurveyPrompt.razor]
 build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXFN1cnZleVByb21wdC5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/work-pc/Desktop/Jeison_Par2_AP1/_Imports.razor]
+[c:/Users/work-pc/Desktop/Jeison_Par2_AP1/_Imports.razor]
 build_metadata.AdditionalFiles.TargetPath = X0ltcG9ydHMucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/work-pc/Desktop/Jeison_Par2_AP1/Shared/MainLayout.razor]
+[c:/Users/work-pc/Desktop/Jeison_Par2_AP1/Shared/MainLayout.razor]
 build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXE1haW5MYXlvdXQucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = b-kkfj67kkdb
 
-[C:/Users/work-pc/Desktop/Jeison_Par2_AP1/Shared/NavMenu.razor]
+[c:/Users/work-pc/Desktop/Jeison_Par2_AP1/Shared/NavMenu.razor]
 build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXE5hdk1lbnUucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = b-q1okihfxyv
 
-[C:/Users/work-pc/Desktop/Jeison_Par2_AP1/Pages/Error.cshtml]
+[c:/Users/work-pc/Desktop/Jeison_Par2_AP1/Pages/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRXJyb3IuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/work-pc/Desktop/Jeison_Par2_AP1/Pages/_Host.cshtml]
+[c:/Users/work-pc/Desktop/Jeison_Par2_AP1/Pages/_Host.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX0hvc3QuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/work-pc/Desktop/Jeison_Par2_AP1/Pages/_Layout.cshtml]
+[c:/Users/work-pc/Desktop/Jeison_Par2_AP1/Pages/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX0xheW91dC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
