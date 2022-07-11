@@ -1,0 +1,105 @@
+@page "/Verdura"
+@*page "/Verdura/{VerduraId:int}"*@
+@inject VerdurasBLL verdurasBLL
+@inject VitaminasBLL vitaminasBLL
+
+<EditForm Model="verdura" >
+    <DataAnnotationsValidator/>
+    <div class="card-header">
+            <h3>Registro de Verduras</h3>
+        </div>
+
+        <div class="card-body">
+
+            <div class="row justify-content-between">
+
+                <div class="col-3">
+                    <label>VerduraId</label>
+                    <div class="input-group mb-3">
+                        <input type="number" class="form-control" aria-label="Recipient's username" aria-describedby="basic-addon2">
+                        <button class="btn btn-outline-primary" type="button"> <i class="oi oi-magnifying-glass" /> </button>
+                    </div>
+                </div>
+
+                <div class="col-3">
+                    <label>Fecha de Creacion</label>
+                    <input type="date" class="form-control"  aria-label="Recipient's username" aria-describedby="basic-addon2">
+                </div>
+            </div>
+        @*Nombre de la verdura*@
+        <label>Nombre de la Verdura</label>
+        <div class="input-group input-group-lg">
+        <input type="text" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-lg">
+        </div>
+        </div>
+        @* Verdura DETALLE *@
+            <fieldset class="border-success">
+                <div class="row">
+                @* Vitamina Id *@
+                <div class="col-2">
+                    <label>Vitaminas</label>
+                    @*<InputSelect class="form-select" @bind-Value="Detalle.VitaminaId">
+                            <option value="0" disabled> Seleccione </option> 
+                            @foreach( var vitamina in this)
+                            {
+                                <option value="@vitamina.VitaminaId"> @.Descripcion</option> 
+                            }
+                    </InputSelect>2*@
+                </div>
+                @* Descripcion *@
+                <div class="col-2">
+                    <label>Descripcion</label>   
+                    <input type="text" class="form-control" aria-label="Recipient's username" aria-describedby="basic-addon2">
+                </div>
+                @* Cantidad *@
+                <div class="col-2">
+                    <label>Cantidad</label>  
+                    <input type="number" class="form-control" aria-label="Recipient's username" aria-describedby="basic-addon2"> 
+                </div>
+               @*Boton de agregar detalle*@
+                <div class="col-2">
+                    <button type="button" class="btn btn-outline-primary input-group-text mt-4">
+                        <span class="oi oi-plus"></span>
+                    </button>
+                </div>
+                </div>
+               
+            </fieldset>
+
+
+            @* Tabla de detalles *@
+            <hr />
+            <table class="table table-bordered table-light">
+                <thead class="thead">
+                    <tr class="table">
+                        <th>VitaminaId</th>
+                        <th>Descripcion</th> 
+                        <th>Cantidad</th>
+                        <th>Unidad de medida</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    
+                </tbody>
+            </table>
+            <hr />
+            @*Observaciones*@
+        <div class="form-floating">
+  <textarea type="text" class="form-control" placeholder="Leave a comment here" 
+  id="floatingTextarea2" style="height: 100px"></textarea>
+  <label for="floatingTextarea2">Observaciones</label>
+</div> 
+        <div class="card-footer d-flex justify-content-center">
+            <div class="btn-group" role="group">
+                <button type="button" class="btn btn-outline-primary" > <i class="oi oi-file" /> Nuevo</button>
+                <button type="submit" class="btn btn-outline-success"> <i class="oi oi-document" /> Guardar</button>
+                <button type="button" class="btn btn-outline-danger" ><i class="oi oi-trash" /> Eliminar</button>
+            </div>
+        </div>
+</EditForm>
+@code{
+    [Parameter]
+    public Verduras verdura { get; set; } = new Verduras();
+    
+
+}
