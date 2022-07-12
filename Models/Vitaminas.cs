@@ -8,6 +8,7 @@ public class Vitaminas
     
     public String Descripcion { get; set; }
 
-    public double UnidadDeMedida { get; set; }
+    public String UnidadMedida { get; set; }
     
+    public double Existencia { get; set; }
 }

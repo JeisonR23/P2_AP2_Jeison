@@ -12,35 +12,35 @@
   "ProjectWorkspaceState": {
     "TagHelpers": [
       {
-        "HashCode": -2040371130,
+        "HashCode": 1134874868,
         "Kind": "Components.Component",
-        "Name": "Jeison_Par2_AP1.Pages.Index",
+        "Name": "Jeison_Par2_AP1.Pages.Consulta.C_Vitaminas",
         "AssemblyName": "Jeison_Par2_AP1",
         "CaseSensitive": true,
         "TagMatchingRules": [
           {
-            "TagName": "Index"
+            "TagName": "C_Vitaminas"
           }
         ],
         "Metadata": {
           "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "Jeison_Par2_AP1.Pages.Index"
+          "Common.TypeName": "Jeison_Par2_AP1.Pages.Consulta.C_Vitaminas"
         }
       },
       {
-        "HashCode": 1478412349,
+        "HashCode": 838677853,
         "Kind": "Components.Component",
-        "Name": "Jeison_Par2_AP1.Pages.Index",
+        "Name": "Jeison_Par2_AP1.Pages.Consulta.C_Vitaminas",
         "AssemblyName": "Jeison_Par2_AP1",
         "CaseSensitive": true,
         "TagMatchingRules": [
           {
-            "TagName": "Jeison_Par2_AP1.Pages.Index"
+            "TagName": "Jeison_Par2_AP1.Pages.Consulta.C_Vitaminas"
           }
         ],
         "Metadata": {
           "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "Jeison_Par2_AP1.Pages.Index",
+          "Common.TypeName": "Jeison_Par2_AP1.Pages.Consulta.C_Vitaminas",
           "Components.NameMatch": "Components.FullyQualifiedNameMatch"
         }
       },
@@ -78,40 +78,40 @@
         }
       },
       {
-        "HashCode": 1134874868,
+        "HashCode": -2040371130,
         "Kind": "Components.Component",
-        "Name": "Jeison_Par2_AP1.Pages.Consulta.C_Vitaminas",
+        "Name": "Jeison_Par2_AP1.Pages.Index",
         "AssemblyName": "Jeison_Par2_AP1",
         "CaseSensitive": true,
         "TagMatchingRules": [
           {
-            "TagName": "C_Vitaminas"
+            "TagName": "Index"
           }
         ],
         "Metadata": {
           "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "Jeison_Par2_AP1.Pages.Consulta.C_Vitaminas"
+          "Common.TypeName": "Jeison_Par2_AP1.Pages.Index"
         }
       },
       {
-        "HashCode": 838677853,
+        "HashCode": 1478412349,
         "Kind": "Components.Component",
-        "Name": "Jeison_Par2_AP1.Pages.Consulta.C_Vitaminas",
+        "Name": "Jeison_Par2_AP1.Pages.Index",
         "AssemblyName": "Jeison_Par2_AP1",
         "CaseSensitive": true,
         "TagMatchingRules": [
           {
-            "TagName": "Jeison_Par2_AP1.Pages.Consulta.C_Vitaminas"
+            "TagName": "Jeison_Par2_AP1.Pages.Index"
           }
         ],
         "Metadata": {
           "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "Jeison_Par2_AP1.Pages.Consulta.C_Vitaminas",
+          "Common.TypeName": "Jeison_Par2_AP1.Pages.Index",
           "Components.NameMatch": "Components.FullyQualifiedNameMatch"
         }
       },
       {
-        "HashCode": 808918864,
+        "HashCode": 701477502,
         "Kind": "Components.Component",
         "Name": "Jeison_Par2_AP1.Pages.Registro.R_Verduras",
         "AssemblyName": "Jeison_Par2_AP1",
@@ -124,10 +124,10 @@
         "BoundAttributes": [
           {
             "Kind": "Components.Component",
-            "Name": "verdura",
-            "TypeName": "Verduras",
+            "Name": "VerduraId",
+            "TypeName": "System.Int32",
             "Metadata": {
-              "Common.PropertyName": "verdura"
+              "Common.PropertyName": "VerduraId"
             }
           }
         ],
@@ -137,7 +137,7 @@
         }
       },
       {
-        "HashCode": -153875766,
+        "HashCode": 871840391,
         "Kind": "Components.Component",
         "Name": "Jeison_Par2_AP1.Pages.Registro.R_Verduras",
         "AssemblyName": "Jeison_Par2_AP1",
@@ -150,10 +150,10 @@
         "BoundAttributes": [
           {
             "Kind": "Components.Component",
-            "Name": "verdura",
-            "TypeName": "Verduras",
+            "Name": "VerduraId",
+            "TypeName": "System.Int32",
             "Metadata": {
-              "Common.PropertyName": "verdura"
+              "Common.PropertyName": "VerduraId"
             }
           }
         ],

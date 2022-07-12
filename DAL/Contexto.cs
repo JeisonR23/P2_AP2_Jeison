@@ -20,7 +20,7 @@ public class Contexto : DbContext
             {
                 VitaminaId = 1,
                 Descripcion = "Vitamina B2",
-                UnidadDeMedida = 2.5
+                UnidadMedida = "Miligramos"
                 
 
             },
@@ -28,19 +28,24 @@ public class Contexto : DbContext
             {
                 VitaminaId = 2,
                 Descripcion = "Vitamina C",
-                UnidadDeMedida = 2
+                UnidadMedida = "Kilosgramos",
+                Existencia = 0
             },
                 new Vitaminas
             {
                 VitaminaId = 3,
                 Descripcion = "Vitamina A",
-                UnidadDeMedida = 2
+                UnidadMedida = "Gramos",
+                Existencia = 0
+                
             },
                 new Vitaminas
             {
                 VitaminaId = 4,
                 Descripcion = "Vitamina D",
-                UnidadDeMedida = 3
+                UnidadMedida = "Gramos",
+                Existencia = 0
+                
             }
 
         );
